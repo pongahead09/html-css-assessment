@@ -1,0 +1,128 @@
+body {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A162B;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.whiteContainer {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0A162B;
+}
+
+hr {
+    border: 1px solid #0A162B;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.badgeContainer {
+    padding: 20px;
+}
+
+.badgeContainer img {
+    width: 168px;
+}
+
+.links {
+    margin-bottom: 40px;
+}
+
+form {
+    padding: 40px 10%;
+}
+
+.btn {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+    background-blend-mode: overlay, normal;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+}
+
+.sponsored {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.blueContainer {
+    background-color: #F3FBFF;
+    width: 100%;
+}
+
+.blueArea {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10%;
+}
+
+.blueArea .card {
+    width: 100% !important;
+}
+
+.blueArea .card img {
+    max-width: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.spaceBetweenRows {
+    margin-bottom: 20px;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .centeredTablet {
+        text-align: center;
+    }
+
+    .blueArea {
+        max-width: 90%;
+    }
+
+    .links a {
+        line-height: 55px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 575.98px) {
+    .btn {
+        margin-top: 20px;
+    }
+    
+    .card2,
+    .card3,
+    .card4 {
+        margin-top: 20px;
+    }
+}
